@@ -33,14 +33,6 @@ menu.addEventListener('click', function() {
 
 
 
-
-
-
-
-
-
-
-
 // Set the date we're counting down to
 var countDownDate = new Date("Mar 30, 2024 24:00:00").getTime();
 
