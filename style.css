@@ -172,10 +172,10 @@
                 
                 .msg {
                     width: 70%;
-                    height: 40vh;
+                    height: 45vh;
                     /* margin: auto; */
                     position: absolute;
-                    top: 60%;
+                    top: 55%;
                     left: 15%;
                     display: block;
                     justify-content: center;
@@ -184,6 +184,40 @@
                     border-radius: 30px;
                 }
                 
+                .msg p {
+                    font-size: 35px;
+                    color: #ffffff;
+                    font-weight: 600;
+                    text-align: center;
+                    margin-top: 20px;
+                }
+                /* Time Function */
+                
+                .launch-time {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 25%;
+                }
+                
+                .launch-time div {
+                    flex-basis: 100px;
+                }
+                
+                .launch-time div span {
+                    font-size: 20px;
+                    color: #ffffff;
+                    margin-left: 20px;
+                }
+                
+                .msg .launch-time div p {
+                    font-size: 60px;
+                    margin-bottom: 1px;
+                    margin-top: -0.5rem;
+                }
+                /*  */
+                
                 #time h1 {
                     font-size: 60px;
                     margin-top: 10px;
@@ -191,9 +225,13 @@
                 
                 .msg h1 {
                     color: #ffffff;
-                    font-size: 40px;
+                    font-size: 60px;
                     font-weight: 700;
                     text-align: center;
+                }
+                
+                .msg h1 span {
+                    color: rgb(255, 0, 0);
                 }
                 
                 .msg button {
@@ -290,21 +328,28 @@
                     .msg {
                         width: 80%;
                         height: 100vh;
-                        top: 0;
+                        top: 0px;
                         left: 10%;
                         border-radius: 0;
+                    }
+                    .msg p {
+                        font-size: 25px;
+                        margin-top: 70%;
                     }
                     #time h1 {
                         font-size: 45px;
                         margin-top: 60%;
                     }
                     .msg h1 {
-                        font-size: 20px;
+                        font-size: 40px;
                         margin-top: 10px;
+                    }
+                    .msg .launch-time div p {
+                        font-size: 50px;
                     }
                     .msg button {
                         display: block;
-                        margin-left: 32%;
+                        margin-left: 26%;
                     }
                 }
                 /* TABLETS */
