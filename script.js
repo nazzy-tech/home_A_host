@@ -68,7 +68,7 @@ menu.addEventListener('click', function() {
 
 
 
-var countDownDate = new Date("Mar 30, 2024 24:00:00").getTime();
+var countDownDate = new Date("2024-03-30T24:00:00Z").getTime();
 var x = setInterval(function() {
     var now = new Date().getTime();
     var distance = countDownDate - now;
